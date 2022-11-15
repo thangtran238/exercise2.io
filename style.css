@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+  padding:0;
+  margin: 0;
+}
+body {
+  font-family: 'Roboto', Arial ;
+  background-color: #eee;
+}
+
+.menu-bar {
+  padding: 0 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+}
+
+.search-bar {
+  height: 45px;
+  padding-left: 12px;
+  border: 1px solid rgba(100,100,100,0.3);
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.search-bar::placeholder {
+ border-color: rgba(100,100,100,0.3);
+}
+
+.search-bar:after {
+  border-color: rgba(100,100,100,0.3);
+}
+
+.button-group {
+  padding: 0 2px;
+  height: 45px;
+  border-radius: 5px;
+  display: flex;
+  margin: 30px 0;
+  border: 1px solid rgba(100,100,100,0.3);
+
+}
+.button-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 12px;
+  height: 100%;
+  border: none;
+}
+
+.button-item i {
+  margin-right: 8px;
+}
+
+.button-item-detail {
+  border-left: 1px solid rgba(100,100,100,0.3);
+  border-right: 1px solid rgba(100,100,100,0.3);
+
+}
+.question-mark {
+  color: rgba(43, 99, 221, 0.851);
+}
+.table-body i {
+  color: green;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+}
+.table-body img {
+  object-fit: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+.table-body  th {
+  vertical-align: middle; 
+}
+.table-body td {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.table-container p {
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+
+.container-item {
+  height: 40%;
+  width: 75%;
+  border: none;
+  border-radius: 20px;
+}
+.item-1 {
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+  border: none;
+  background-color: gray;
+  position: relative;
+}
+.item-2 {
+  height: 100%;
+  width: 26%;
+  border: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius : 20px;
+  background-color: green;;
+}
+.comment {
+  background-color: rgba(49, 107, 214, 0.891);
+  padding: 0 10px;
+  color: white;
+  border-radius: 2px;
+  text-align: center;
+}
