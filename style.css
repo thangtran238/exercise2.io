@@ -59,6 +59,11 @@ body {
   border-right: 1px solid rgba(100,100,100,0.3);
 
 }
+.table-title-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .question-mark {
   color: rgba(43, 99, 221, 0.851);
 }
